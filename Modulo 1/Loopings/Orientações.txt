@@ -1,1 +1,39 @@
-Aqui, vocês vão colocar os códigos sobre Loopings, while e for
+total=0
+maior_de_participantes=0
+for i in range(1,6):
+    total_de_participantes= int(input("número de pessoas?"))
+    total += total_de_participantes
+    média= total/5
+
+    if total_de_participantes > maior_de_participantes:
+        maior_de_participantes = total_de_participantes
+        
+
+print(f"total de participantes no evento:{total_de_participantes}")
+print(f"média de participantes no evento:{média}")
+print(f"maior número de partcipante em um dia:{maior_de_participantes}")
+
+
+
+
+
+
+
+    
+mesa =20 
+nome= input("nome da pessoa que está fazendo a reserva:")
+quantidade=int(input("quantidade de pessoas:"))
+
+while mesa > 0:
+    mesa-= quantidade
+    print(f"{nome} sua reserva foi realizada")
+
+    nome = input("nome da pessoa que está realizando a reserva:")
+    quantidade= int(input("quantidade de pessoas:"))
+
+while mesa == 0:
+    print("reserva esgotada:")
+
+
+
+
