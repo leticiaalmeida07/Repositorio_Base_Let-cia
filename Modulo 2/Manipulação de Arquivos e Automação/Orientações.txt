@@ -46,3 +46,49 @@ def menu():
 
 
 
+
+
+import pyautogui
+
+pyautogui.press("win")
+pyautogui.sleep(2)
+pyautogui.write("google")
+pyautogui.sleep(1)
+pyautogui.press("enter")
+pyautogui.sleep(1)
+pyautogui.moveTo(947,565)
+pyautogui.click()
+pyautogui.sleep(2)
+pyautogui.write("instagram")
+pyautogui.sleep(1)
+pyautogui.press("enter")
+pyautogui.moveTo(369,322)
+pyautogui.moveTo(1202,1071)
+pyautogui.write("Flamengo_123")
+pyautogui.sleep(2)
+pyautogui.moveTo(1199,1051)
+pyautogui.write("123456")
+pyautogui.sleep(2)
+pyautogui.moveTo(831,486)
+
+
+
+import pyautogui
+
+# pyautogui.mouseInfo()
+pyautogui.press("win")
+pyautogui.sleep(2)
+pyautogui.write("calculadora")
+pyautogui.sleep(2)
+pyautogui.press("enter")
+pyautogui.sleep(2)
+pyautogui.click(171,369)
+pyautogui.sleep(2)
+pyautogui.press("+")
+pyautogui.sleep(2)
+pyautogui.click(168,481)
+pyautogui.sleep(2)
+pyautogui.press("Enter")
+
+
+
